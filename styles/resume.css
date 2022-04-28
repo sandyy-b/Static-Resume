@@ -13,13 +13,13 @@ body{
     margin-left: 20px;
 }
 
-.horizontalLineStyle{
+.horizontalLine{
     border: 1px solid black;
     background-color: black;
     width: 37px;
 }
 
-.nameStyle{
+.name{
     background-color: #ffe6e6;
     width: 250px;
     height: 290px;
@@ -29,17 +29,17 @@ body{
     word-break: break-word;
 }
 
-.listStyle{
+.list{
     padding-left: 12px;
 }
 
-.listStyleType{
+.unorderedList{
     padding-left:60px;
     width: 100%;
     word-break: break-word;
 }
 
-.summaryStyle{
+.summary{
     background-color: #fff2e5;
     float: right;
     width: 490px;
@@ -56,68 +56,71 @@ img{
     background-color: white;
 }
 
-.iconStyle{
+.icon{
     display: inline-flex;
     width: 100%;
     align-items: center;
     margin-top: 15px;
 }
 
-.customStyle{
+.spanDetails{
     padding-left: 10px;
 }
 
-.contentStyle{
+.paraContent{
     font-size: 19px;
     word-break: break-word;
 }
 
-.skillsStyle{
+.skills{
     background-color: #fff2e5;
     float: left;
     padding-left: 50px;
     padding-top: 25px;
-    height: 730px;
+    height: 700px;
     width: 250px;
     word-break: break-word;
 }
 
-.qualificationsStyle{
+.qualifications{
     padding-top: 25px;
     padding-right: 165px;
     float: right;
     word-break: break-word;
+    height: 850px;
 }
 
-.adjust{
+.summaryHead{
     padding-left: 45px;
     width: 100%;
 }
-.customMargin{
+.workHistoryMargin{
     margin: 0px;
 }
-.qwe{
-    margin-top: 8px;
+.top{
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 700px) {
-    .nameStyle{
+    .name{
         width: 100%;
     }
     .bdr{
         width: 100%;
+        margin-left: 0px;
     }
-    .summaryStyle{
+    .summary{
+        width: 100%;
+        height: auto;
+    }
+    .skills{
         width: 100%;
     }
-    .skillsStyle{
-        width: 100%;
-    }
-    .qualificationsStyle{
+    .qualifications{
         width: 100%;
         padding-right: 10px;
     }
-    .customMargin{
+    .workHistoryMargin{
         margin: 0px;
     }
     *{
@@ -128,5 +131,8 @@ img{
     }
     .border{
         width: 100%;
+    }
+    .top{
+        margin-top: 10px;
     }
 }
